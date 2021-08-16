@@ -11,7 +11,9 @@ repositories {
 
 dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
-    implementation 'junit:junit:4.13.2'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
+    testImplementation 'org.hamcrest:hamcrest-library:2.2'
+    testImplementation 'junit:junit:4.13.2'
 }
 
 test {

@@ -1,9 +1,7 @@
 package tests;
 
-
 import org.junit.Assert;
 import org.junit.Test;
-
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 
